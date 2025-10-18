@@ -1,0 +1,119 @@
+/* Importando uma fonte do Google Fonts para um visual mais moderno */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset básico e configurações gerais do corpo da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1a0808;
+    /* Um fundo escuro, quase preto, com um toque de vermelho */
+    color: #fff;
+    /* Cor do texto principal branca para bom contraste */
+    height: 100vh;
+    /* Ocupa a altura inteira da tela */
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilização do Header (Cabeçalho) */
+header {
+    padding: 20px 4%;
+    background-color: #3d0e0e;
+    /* Um vermelho escuro para o cabeçalho */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    /* Sombra para dar profundidade */
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilização do Logo */
+.logo img {
+    width: 180px;
+    /* Ajuste o tamanho do seu logo conforme necessário */
+    transition: transform 0.3s ease;
+    /* Efeito de transição suave */
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    /* Aumenta um pouco o logo ao passar o mouse */
+}
+
+/* Estilização do Menu Desktop */
+.menu-desktop ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+}
+
+.menu-desktop ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-desktop ul li a {
+    color: #f0c4c4;
+    /* Um tom de vermelho claro para os links */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Efeito de hover para os links do menu */
+.menu-desktop ul li a:hover {
+    color: #ff4d4d;
+    /* Cor mais vibrante ao passar o mouse */
+}
+
+/* Adiciona uma linha sutil abaixo do link ativo/hover */
+.menu-desktop ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ff4d4d;
+    transition: width 0.4s ease;
+}
+
+.menu-desktop ul li a:hover::after {
+    width: 100%;
+}
+
+
+/* Estilização do Botão de Contato */
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c0392b;
+    /* Cor principal de destaque em vermelho */
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-contato button:hover {
+    background-color: #ff4d4d;
+    /* Vermelho mais claro no hover */
+    transform: scale(1.05);
+    /* Efeito de crescimento no botão */
+    box-shadow: 0 6px 12px rgba(255, 77, 77, 0.3);
+}
