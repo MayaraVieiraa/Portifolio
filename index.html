@@ -1,33 +1,352 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+    <header id="header"></header>
+
+    <!-- Hero Section Sobre Mim -->
+    <section class="sobre-hero">
         <div class="interface">
-             <div class="logo">
-                  <a href="">
-                    <img src="img/logonpg.png" alt="Logo MV com uma raposa e rosas">
-                  </a>
-            </div>
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#especialidades">Especialidades</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                </ul>
-            </nav>
-            <div class="btn-contato">
-                <a href="#contato">
-                <button>Contato</button>
-                </a>
+            <div class="sobre-hero-content">
+                <div class="sobre-hero-text" data-aos="fade-up">
+                    <h1>Sobre <span class="destaque">Mayara</span></h1>
+                    <p class="sobre-subtitle">Desenvolvedora Full Stack & Analista de Dados</p>
+                    <p class="sobre-descricao">Transformo ideias em soluções digitais através da combinação de código
+                        criativo e análise de dados inteligente. Minha paixão é criar experiências que fazem a
+                        diferença.</p>
+
+                    <div class="sobre-stats">
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Participações em Projetos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Tecnologias em aprendizado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sobre-hero-visual" data-aos="fade-left" data-aos-delay="300">
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <span class="card-icon">💻</span>
+                            <span>Desenvolvimento</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <span class="card-icon">📊</span>
+                            <span>Análise de Dados</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <span class="card-icon">🎨</span>
+                            <span>UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+    </section>
+
+    <!-- Seção Minha Jornada -->
+    <section class="minha-jornada">
+        <div class="interface">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Minha Jornada</h2>
+                <p class="section-subtitle">Da Gestão de Pessoas ao Desenvolvimento de Soluções</p>
+            </div>
+
+            <div class="jornada-content">
+                <div class="jornada-text" data-aos="fade-right">
+                    <p>Minha trajetória começou na <strong>Gestão de Recursos Humanos</strong>, onde desenvolvi
+                        habilidades essenciais em comunicação, gestão de projetos e entendimento das necessidades
+                        humanas. Essa experiência me mostrou como a tecnologia pode transformar processos e melhorar
+                        experiências.</p>
+
+                    <p>A paixão por <strong>tecnologia e dados</strong> me levou a migrar para a área de TI, onde hoje
+                        combino minha visão humanizada com habilidades técnicas para criar soluções que realmente fazem
+                        sentido para as pessoas.</p>
+
+                    <div class="jornada-highlights">
+                        <div class="highlight">
+                            <span class="highlight-icon">🚀</span>
+                            <div>
+                                <strong>Transição de Carreira</strong>
+                                <p>Da Gestão de RH para o Desenvolvimento</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <span class="highlight-icon">🎯</span>
+                            <div>
+                                <strong>Foco em Soluções</strong>
+                                <p>Tecnologia com propósito e impacto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jornada-timeline" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-item">
+                        <div class="timeline-year">2023</div>
+                        <div class="timeline-content">
+                            <h3>Assistente de RH</h3>
+                            <p>GS3 Tecnologia</p>
+                            <span>Gestão de pessoas e processos</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">
+                            <h3>Transição para TI</h3>
+                            <p>Início da Graduação</p>
+                            <span>Sistemas para Internet - IFB</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-content">
+                            <h3>Desenvolvedora</h3>
+                            <p>Estágio e Projetos</p>
+                            <span>Ministério da Defesa & Pesquisa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades Elegante -->
+    <section class="habilidades-elegant">
+        <div class="interface">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Habilidades & Competências</h2>
+                <p class="section-subtitle">Tecnologias e ferramentas que domino</p>
+            </div>
+
+            <div class="habilidades-categorias">
+                <div class="categoria" data-aos="fade-up" data-aos-delay="100">
+                    <div class="categoria-header">
+                        <span class="categoria-icon">🌐</span>
+                        <h3>Desenvolvimento Web</h3>
+                    </div>
+                    <div class="categoria-skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="categoria" data-aos="fade-up" data-aos-delay="200">
+                    <div class="categoria-header">
+                        <span class="categoria-icon">📊</span>
+                        <h3>Análise de Dados</h3>
+                    </div>
+                    <div class="categoria-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">Excel</span>
+                    </div>
+                </div>
+
+                <div class="categoria" data-aos="fade-up" data-aos-delay="300">
+                    <div class="categoria-header">
+                        <span class="categoria-icon">🛠️</span>
+                        <h3>Ferramentas & Outros</h3>
+                    </div>
+                    <div class="categoria-skills">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Formação Elegante -->
+    <section class="formacao-elegant">
+        <div class="interface">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Formação Acadêmica</h2>
+                <p class="section-subtitle">Minha jornada de aprendizado contínuo</p>
+            </div>
+
+            <div class="formacao-timeline">
+                <div class="formacao-item" data-aos="fade-right">
+                    <div class="formacao-periodo">2024 - 2026</div>
+                    <div class="formacao-content">
+                        <h3>Tecnólogo em Sistemas para Internet</h3>
+                        <p class="formacao-instituicao">Instituto Federal de Brasília (IFB)</p>
+                        <p class="formacao-status">Previsão de Conclusão: Jul 2026</p>
+                        <span class="formacao-tag">Graduação</span>
+                    </div>
+                </div>
+
+                <div class="formacao-item" data-aos="fade-left" data-aos-delay="100">
+                    <div class="formacao-periodo">2024 - 2025</div>
+                    <div class="formacao-content">
+                        <h3>Desenvolvimento Fullstack</h3>
+                        <p class="formacao-instituicao">SENAI</p>
+                        <p class="formacao-status">Previsão de Conclusão: Out 2025</p>
+                        <span class="formacao-tag">Profissionalizante</span>
+                    </div>
+                </div>
+
+                <div class="formacao-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="formacao-periodo">Concluído</div>
+                    <div class="formacao-content">
+                        <h3>Tecnólogo em Gestão de Recursos Humanos</h3>
+                        <p class="formacao-instituicao">Universidade do Distrito Federal (UDF)</p>
+                        <p class="formacao-status">Concluído com êxito</p>
+                        <span class="formacao-tag">Graduação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Experiências Elegante -->
+    <section class="experiencias-elegant">
+        <div class="interface">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Experiência Profissional</h2>
+                <p class="section-subtitle">Minha trajetória no mercado de trabalho</p>
+            </div>
+
+            <div class="experiencias-grid">
+                <div class="experiencia-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="experiencia-header">
+                        <div class="experiencia-cargo">
+                            <h3>Estagiária em TI</h3>
+                            <p class="experiencia-empresa">Ministério da Defesa</p>
+                        </div>
+                        <div class="experiencia-periodo">
+                            <span class="periodo-badge">Fev 2025 - Atual</span>
+                        </div>
+                    </div>
+                    <p class="experiencia-local">Brasília/DF</p>
+                    <ul class="experiencia-tasks">
+                        <li>Atendimento a usuários via help desk e presencialmente</li>
+                        <li>Suporte técnico: instalação de aplicativos e resolução de problemas</li>
+                        <li>Abertura e fechamento de ordens de serviço (OS)</li>
+                        <li>Formatação e configuração de computadores</li>
+                    </ul>
+                    <div class="experiencia-tags">
+                        <span class="tag">Suporte Técnico</span>
+                        <span class="tag">Help Desk</span>
+                        <span class="tag">Infraestrutura</span>
+                    </div>
+                </div>
+
+                <div class="experiencia-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="experiencia-header">
+                        <div class="experiencia-cargo">
+                            <h3>Assistente de Recursos Humanos</h3>
+                            <p class="experiencia-empresa">GS3 Tecnologia</p>
+                        </div>
+                        <div class="experiencia-periodo">
+                            <span class="periodo-badge">Mar 2023 - Fev 2025</span>
+                        </div>
+                    </div>
+                    <p class="experiencia-local">Brasília/DF</p>
+                    <ul class="experiencia-tasks">
+                        <li>Recrutamento e seleção de profissionais de TI</li>
+                        <li>Gestão de benefícios, controle de ponto e apoio na folha de pagamento</li>
+                        <li>Gestão de contratos e documentação</li>
+                        <li>Apoio em processos de admissão, demissão e desligamento</li>
+                        <li>Criação de conteúdo visual e gestão de redes sociais</li>
+                    </ul>
+                    <div class="experiencia-tags">
+                        <span class="tag">Recrutamento</span>
+                        <span class="tag">Gestão de Pessoas</span>
+                        <span class="tag">Administrativo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos e Pesquisas Elegante -->
+    <section class="pesquisas-elegant">
+        <div class="interface">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Projetos & Pesquisas</h2>
+                <p class="section-subtitle">Iniciativas acadêmicas e profissionais</p>
+            </div>
+
+            <div class="pesquisas-grid">
+                <div class="pesquisa-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pesquisa-icon">🔬</div>
+                    <h3>Pesquisadora | Grupo GPTcode</h3>
+                    <p class="pesquisa-periodo">Abr 2025 - Atual</p>
+                    <ul class="pesquisa-tasks">
+                        <li>Desenvolvimento integral de jogo educacional para ensino de Estruturas de Dados</li>
+                        <li>Atuação em concepção, documentação e implementação técnica</li>
+                    </ul>
+                    <div class="pesquisa-tags">
+                        <span class="tag">Pesquisa</span>
+                        <span class="tag">Educação</span>
+                        <span class="tag">Desenvolvimento</span>
+                    </div>
+                </div>
+
+                <div class="pesquisa-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pesquisa-icon">💼</div>
+                    <h3>Analista de Tecnologia | CodaMais</h3>
+                    <p class="pesquisa-periodo">Abr 2025 - Atual</p>
+                    <ul class="pesquisa-tasks">
+                        <li>Especificação de requisitos e documentação do projeto "Mangaba Educacional"</li>
+                        <li>Alinhamento entre necessidades do cliente e desenvolvimento</li>
+                    </ul>
+                    <div class="pesquisa-tags">
+                        <span class="tag">Análise</span>
+                        <span class="tag">Documentação</span>
+                        <span class="tag">Gestão</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="sobre-cta">
+        <div class="interface">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Vamos Trabalhar Juntos?</h2>
+                <p>Estou sempre aberta a novas oportunidades e projetos desafiadores.</p>
+                <div class="cta-buttons">
+                    <a href="contato.html" class="cta-btn primary">Entrar em Contato</a>
+                    <a href="projetos.html" class="cta-btn secondary">Ver Projetos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
 </body>
+
 </html>
