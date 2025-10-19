@@ -1,70 +1,145 @@
-<h1 align="center">🌐 Portfólio — Mayara Vieira</h1>
+# 🌟 Portfólio — Mayara Vieira
 
-<p align="center">
-🚧 <b>Projeto em Desenvolvimento</b> 🚧  
-<br>
-<i>Este portfólio está sendo construído e aprimorado conforme avanço nos estudos e projetos.</i>
-</p>
+<div align="center">
 
----
+![GitHub Last Commit](https://img.shields.io/github/last-commit/MayaraVieiraa/Portifolio?style=for-the-badge&color=ED8B00)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success?style=for-the-badge&logo=github&color=ED8B00)
+![Status](https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge)
 
-<p align="center">
-Bem-vindo(a) ao meu portfólio pessoal!  
-Este projeto foi desenvolvido para apresentar minhas <b>habilidades</b>, <b>especialidades</b> e <b>projetos</b>, além de compartilhar um pouco sobre mim e minha trajetória como desenvolvedora.
-</p>
+**✨ Um portfólio elegante e moderno desenvolvido para mostrar minha jornada na tecnologia ✨**
+<p> 
+Atenção: esse portfólio ainda está em desenvolvimento, algumas informações ainda serão atualizadas!
 
----
-
-## 🛠️ Tecnologias que Estou Utilizando
-
-<div align="left">
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS%20Code-0078d7?style=flat-square&logo=visual-studio-code&logoColor=white)
+[🌐 **Acesse o Portfólio**](https://mayaravieiraa.github.io/Portifolio/)
 
 </div>
 
 ---
 
-## 🧭 Estrutura do Site
+## 🎯 Sobre o Projeto
 
-O portfólio é composto por quatro seções principais:
+Um portfólio profissional desenvolvido com design moderno e responsivo, apresentando minha trajetória, habilidades e projetos como desenvolvedora.
 
-| Seção | Descrição |
-|-------|------------|
-| 🏠 **Início** | Apresentação inicial com uma saudação e destaque das tecnologias principais. |
-| 💡 **Especialidades** | Lista das principais áreas de atuação e tecnologias que domino. |
-| 👩‍💻 **Sobre** | Breve biografia e resumo da minha trajetória acadêmica e profissional. |
-| 🚀 **Projetos** | Galeria com os principais projetos que desenvolvi, com links para o GitHub e demonstrações. |
-
----
-
-## 🎨 Design e Responsividade
-
-O site foi planejado com foco em:
-- Layout **clean e responsivo**, adaptando-se a diferentes dispositivos;  
-- Paleta de cores que reflete **profissionalismo e personalidade**;  
-- Navegação fluida entre as seções.
+### 🚀 **Destaques:**
+- **Design elegante** com paleta de cores personalizada
+- **Completamente responsivo** para todos os dispositivos
+- **Navegação intuitiva** entre as seções
+- **Animações suaves** e experiência de usuário refinada
 
 ---
 
-## 📈 Objetivo do Projeto
+## 🛠️ Tecnologias Utilizadas
 
-O portfólio serve como uma **vitrine profissional**, permitindo que recrutadores e parceiros conheçam minhas habilidades e projetos de forma prática e organizada.
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+
+</div>
 
 ---
 
-## 📫 Contato
+## 📁 Estrutura do Projeto
 
-💼 [LinkedIn](https://www.linkedin.com/in/mayara-vieira-00259926b/)  
-📧 **mayaravm@gmail.com**  
-📧 **m4y4r4vm@gmail.com**
+```
+Portfolio/
+├── 🏠 index.html          # Página inicial (Sobre)
+├── 💼 projetos.html       # Portfólio de projetos
+├── 📞 contato.html        # Formulário de contato
+├── 🎨 style.css           # Estilos completos
+├── ⚡ script.js           # Interatividade e menu
+├── 🧭 menu.html           # Componente de navegação
+└── 📁 img/               # Assets e ícones
+```
 
 ---
 
-<p align="center">
-✨ Desenvolvido com dedicação por <b>Mayara Vieira</b> ✨
-</p>
+## 🎨 Seções do Portfólio
+
+### 🏠 **Início (Sobre)**
+- Apresentação pessoal e profissional
+- Timeline da minha jornada
+- Estatísticas e habilidades
+- Call-to-action para projetos e contato
+
+### 💼 **Projetos**
+- Galeria de projetos desenvolvidos
+- Filtros por categoria
+- Cards interativos com detalhes técnicos
+- Links para repositórios e demonstrações
+
+### 📞 **Contato**
+- Formulário de contato funcional
+- Informações de contato direto
+- Links para redes profissionais
+
+---
+
+## 🤖 Desenvolvimento com IA
+
+<div align="center">
+
+![AI Assisted](https://img.shields.io/badge/AI-Assisted_Development-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+
+</div>
+
+**Este projeto contou com assistência de IA para:**
+- ✨ **Otimização de código** CSS e HTML
+- 🎨 **Refinamento do design** e paleta de cores
+- 📱 **Implementação de responsividade**
+- 🔧 **Solução de problemas técnicos**
+- 📝 **Documentação e boas práticas**
+
+*Todo o conteúdo e decisões criativas foram supervisionados e aprovados por mim.*
+
+---
+
+## 🚀 Como Executar Localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/MayaraVieiraa/Portifolio.git
+
+# Acesse a pasta do projeto
+cd Portifolio
+
+# Abra no navegador
+# (Simplesmente abra o arquivo index.html no seu navegador)
+```
+
+---
+
+## 📈 Próximas Atualizações
+
+- [ ] 🔍 **Implementação do Back-End**
+- [ ] 📱 **Atualização dos dados atuais**
+
+---
+
+## 📞 Conecte-se Comigo
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayara-vieira-00259926b/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MayaraVieiraa)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mayaravm@gmail.com)
+
+**📧 mayaravm@gmail.com**  
+**📧 m4y4r4vm@gmail.com**
+
+</div>
+
+---
+
+<div align="center">
+
+### ✨ Desenvolvido com paixão por **Mayara Vieira** ✨
+
+*"Transformando linhas de código em experiências incríveis"*
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=MayaraVieiraa%2FPortifolio&label=Visitors&labelColor=%23ED8B00&countColor=%23130606&style=flat)
+
+</div>
